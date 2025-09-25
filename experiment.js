@@ -1,11 +1,11 @@
 
-let character = "f";        // el carácter a repetir
-let timesToRepeat = 5;      // cuántas veces queremos repetirlo
+let character = "f";      
+let timesToRepeat = 5;     
 
 let result = "";
 
 for (let i = 0; i < timesToRepeat; i++) {
-  result = result + character; // vamos sumando el carácter
+  result = result + character; 
 }
 console.log(result);
 
